@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int height;
+    while(1)
+    {
+        printf("Height: ");
+        scanf("%i", &height);
+        if (height >= 1 && height <= 8)
+            break;
+    }
+
+}
